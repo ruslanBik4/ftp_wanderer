@@ -1,7 +1,7 @@
 {
 	"name":        "ruslan-bik/ftp_wanderer",
 	"type":        "library",
-	"description": "Test project for move images from host to FS",
+	"description": "Test project for move images from remote host to FS",
 	"keywords": ["ftp","download"],
     "homepage": "https://github.com/ruslanBik4/ftp_wanderer",    
     "license": "MIT",
@@ -22,7 +22,5 @@
         "psr-4": {
             "ftp_wanderer": "src"
         }
-    }
-}
     }
 }
