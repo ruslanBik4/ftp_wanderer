@@ -1,0 +1,12 @@
+# REWRITE ___________________
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+
+	#	и запрошенный путь не соответствует пути к физическому файлу
+	RewriteCond %{REQUEST_FILENAME} !-f
+	#	и запрошенный путь не соответствует пути к физической папке
+	RewriteCond %{REQUEST_FILENAME} !-d
+	#	то перенаправить запрос на главную страницу index.php
+	RewriteRule .* index.php[L]
+
+</IfModule>

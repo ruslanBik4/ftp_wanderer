@@ -1,0 +1,26 @@
+{
+	"name":        "ruslan-bik/ftp_wanderer",
+	"type":        "library",
+	"description": "Test project for move images from host to FS",
+	"keywords": ["ftp","download"],
+    "homepage": "https://github.com/ruslanBik4/ftp_wanderer",    
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ruslan Bikchentaev",
+            "email": "ruslan-bik@yandex.ru",
+            "homepage": "http://artel.ws",
+            "role": "Developer"
+        }
+    ],
+    "require":{
+        "php":">=5.3.0",
+		"phpunit/phpunit": "4.8.24",
+		"phing/phing": "dev-master"
+    }
+    "autoload": {
+        "psr-4": {
+            "ftp_wanderer": "src"
+        }
+    }
+}
