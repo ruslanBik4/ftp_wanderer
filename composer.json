@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ftp_wanderer": "src"
+            "ftp_wanderer\\": "src"
         }
     }
 }
